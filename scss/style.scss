@@ -1,0 +1,98 @@
+@import"_variables";
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.StarunTitle {
+    font-size: $font-size-saturn;
+    letter-spacing: $letter-spacing-saturn;
+
+    color: $color-black;
+    font-weight: $font-weight-bold;
+    font-family: $font-family-Opensans;
+
+}
+
+.articletitle {
+    color: $color-black;
+    font-size: $font-size-titre;
+    font-weight: $font-weight-titre ;
+    font-family: $font-family-Lato;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.articledesc {
+    color: $color-Grey;
+    font-size: $font-size-tags-comment;
+    line-height: $line-height-description;
+    font-weight: $font-weight-regular;
+    font-family: $font-family-Opensans;
+    &-2{
+        font-size: $font-size-description!important;
+        font-family: $font-family-Opensans !important;
+        line-height: $line-height-description !important;
+    font-weight: $font-weight-regular !important;
+    color: $color-Grey;
+    }
+}
+
+.tagscom {
+    font-size: $font-size-tags-comment;
+    color: $color-Grey;
+    font-weight: $font-weight-bold;
+    font-family: $font-family-Opensans;
+
+}
+
+.buttonreadmore {
+    font-size: $font-size-readmore;
+    letter-spacing: $letter-spacing-readmore;
+    text-transform: $text-transform-readmore;
+    color: $color-orange;
+    font-weight: $font-weight-readmore;
+    font-family: $font-family-Opensans;
+    width: $width-readmore;
+    height: $height-readmore;
+    border: $border-radius-readmore;
+    background-color: $background-color-readmore;
+    border: $border-readmore;
+}
+.buttonprevious {
+    font-size: $font-size-previous;
+    letter-spacing: $letter-spacing-previous;
+    text-transform: $text-transform-previous;
+    color: $color-previous;
+    font-family: $font-family-previous;
+
+    width: $width-previous;
+    height: $height-previous;
+    border-radius: $border-radius-previous;
+    background-color: $color-black;
+}
+.handcrafted {
+    font-size: $font-size-handcraft;
+    letter-spacing: $letter-spacing-handcraft;
+    text-transform: $color-handcraft;
+    font-weight: $font-weight-regular;
+    font-family: $font-family-handcraft;
+    text-align: $text-align-handcraft;
+}
+
+.white-icon {
+    color: white;
+}
+
+.navTitle{
+    
+    font-weight: $font-weight-bold;
+    font-family: $font-family-Opensans;
+    &-1{
+        color: $color-orange;
+    }
+    &-2{
+        color: $color-Grey;
+    }
+}

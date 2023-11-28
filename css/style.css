@@ -1,0 +1,95 @@
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.StarunTitle {
+  font-size: 27px;
+  letter-spacing: -2px;
+  color: #000000;
+  font-weight: 700;
+  font-family: "Open-Sans";
+}
+
+.articletitle {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Lato";
+  text-align: left;
+  white-space: nowrap;
+}
+
+.articledesc {
+  color: #535353;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: "Open-Sans";
+}
+.articledesc-2 {
+  font-size: 15px !important;
+  font-family: "Open-Sans" !important;
+  line-height: 24px !important;
+  font-weight: 400 !important;
+  color: #535353;
+}
+
+.tagscom {
+  font-size: 12px;
+  color: #535353;
+  font-weight: 700;
+  font-family: "Open-Sans";
+}
+
+.buttonreadmore {
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #e85f37;
+  font-weight: 700;
+  font-family: "Open-Sans";
+  width: 124px;
+  height: 26px;
+  border: 5px;
+  background-color: #ffffff;
+  border: 1px solid #e85f37;
+}
+
+.buttonprevious {
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Font Awesome";
+  width: 135px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #000000;
+}
+
+.handcrafted {
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: #525252;
+  font-weight: 400;
+  font-family: "Lato";
+  text-align: left;
+}
+
+.white-icon {
+  color: white;
+}
+
+.navTitle {
+  font-weight: 700;
+  font-family: "Open-Sans";
+}
+.navTitle-1 {
+  color: #e85f37;
+}
+.navTitle-2 {
+  color: #535353;
+}
+
+/*# sourceMappingURL=style.css.map */
